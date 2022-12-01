@@ -1,11 +1,14 @@
 import React from 'react';
-import './App.css';
 import Navbar from './components/Nav';
+import About from './components/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>
-<Navbar />
+      <Navbar></Navbar>
+      <main>
+      <About></About>
+      </main>
     </div>
   );
 }
